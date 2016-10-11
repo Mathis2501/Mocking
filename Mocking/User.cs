@@ -17,6 +17,7 @@
 
         public string Password { get; set; }
         public string UserName { get; set; }
+        public int NumMessagesCreated { get; set; }
 
         public string ViewAllEmployees()
         {
